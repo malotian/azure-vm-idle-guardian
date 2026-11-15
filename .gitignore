@@ -1,0 +1,16 @@
+# Local runtime state & logs
+config/config.json
+*.log
+last_input.json
+metrics_history.json
+monitor_state.json
+.env
+
+# Generated deployment payloads
+infra/*.generated.json
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
